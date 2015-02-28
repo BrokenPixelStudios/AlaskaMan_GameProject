@@ -3,7 +3,7 @@
   <spriteName>spr_testplayer</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1000</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -158,6 +158,7 @@ y += vsp;
           <argument>
             <kind>1</kind>
             <string>game_end();
+
 </string>
           </argument>
         </arguments>

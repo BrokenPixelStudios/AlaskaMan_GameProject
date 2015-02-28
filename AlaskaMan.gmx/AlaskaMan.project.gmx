@@ -19,6 +19,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_testplayer</object>
+    <object>objects\obj_GUI_drawtext</object>
     <objects name="Blocks">
       <object>objects\obj_block_solid</object>
       <object>objects\obj_block_dirt</object>
