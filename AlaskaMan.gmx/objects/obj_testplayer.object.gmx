@@ -54,30 +54,55 @@ grounded = 0;
           <argument>
             <kind>1</kind>
             <string>//Preset for Movement Keys
-key_left = keyboard_check_direct(ord("A"));
-key_right = keyboard_check_direct(ord("D"));
-key_jump = keyboard_check_direct(vk_space);
+global.key_left = keyboard_check_direct(ord("A"));
+global.key_right = keyboard_check_direct(ord("D"));
+global.key_jump = keyboard_check_direct(vk_space);
+global.pspeed = 8;
 
 //Moving Left
-if(key_left){
-       hsp = -8;
-       image_xscale = -1;                            
+if(global.key_left){
+       if(place_meeting(x, y + 1, obj_block_ice)){
+              hsp -= .5;
+              if(hsp &lt; -global.pspeed - 2){
+                     hsp = -global.pspeed - 2;
+              }              
+       }
+       else{             
+              hsp = -global.pspeed;
+              image_xscale = -1;    
+       }                        
 }
 //Moving Right
-if(key_right){
-       hsp = 8;
-       image_xscale = 1;                            
-}
+if(global.key_right){
+       if(place_meeting(x, y + 1, obj_block_ice)){
+              hsp += .5;
+              if(hsp &gt; global.pspeed + 2){
+                     hsp = global.pspeed + 2;
+              }              
+       }
+       else{             
+              hsp = global.pspeed;
+              image_xscale = 1;    
+       }                             
+}            
 
 //Not Moving
-if((key_left &amp;&amp; key_right) || (!key_left &amp;&amp; !key_right)){
-       hsp = 0;      
+if((global.key_left &amp;&amp; global.key_right) || (!global.key_left &amp;&amp; !global.key_right)){
+       if(place_meeting(x, y + 1, obj_block_ice) &amp;&amp; hsp &lt; 0){
+              hsp += .5;
+       }
+       else if(place_meeting(x, y + 1, obj_block_ice) &amp;&amp; hsp &gt; 0){
+              hsp -= .5;
+       }
+       else{                          
+              hsp = 0;     
+       } 
 }
 
 //Jumping
-if(key_jump){
+if(global.key_jump){
        if(grounded){
-              vsp = -10;    
+              vsp = -12;    
        }      
 }
 
@@ -110,6 +135,29 @@ y += vsp;
 
 
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="27">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>game_end();
 </string>
           </argument>
         </arguments>
