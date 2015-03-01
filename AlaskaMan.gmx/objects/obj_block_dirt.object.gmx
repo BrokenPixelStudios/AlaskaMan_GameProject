@@ -25,8 +25,25 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(!place_meeting(x, y - 4, obj_block_solid)){
-      instance_create(x, y, obj_block_grasstop);       
+            <string>//Grass On Top
+if(!place_meeting(x, y - 4, obj_block_solid)){
+      instance_create(x, y, obj_block_grasstop);
+}
+//Dirt On Top
+if(!place_meeting(x, y - 4, obj_block_dirt) &amp;&amp; place_meeting(x, y - 4, obj_block_solid)){
+      instance_create(x, y, obj_block_dirtedge_horz);
+}
+//Dirt On Bottom
+if(!place_meeting(x, y + 4 + 32, obj_block_dirt)){
+      instance_create(x, y + 32, obj_block_dirtedge_horz);
+}
+//Dirt On Left
+if(!place_meeting(x - 4, y, obj_block_dirt)){
+      instance_create(x, y, obj_block_dirtedge_vert);
+}
+//Dirt On Right
+if(!place_meeting(x + 4 + 32, y, obj_block_dirt)){
+      instance_create(x + 32, y, obj_block_dirtedge_vert);
 }
 
 
