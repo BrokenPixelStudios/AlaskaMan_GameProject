@@ -25,10 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(view_xview[0] + 64, view_yview[0] + 64, "VSP - " + string(obj_testplayer.vsp));
-draw_text(view_xview[0] + 64, view_yview[0] + 96, "HSP - " + string(obj_testplayer.hsp));
-
-draw_text(view_xview[0] + 768, view_yview[0] + 64, "Press 'ESC' to quit!");
+            <string>draw_set_color(c_black);
+draw_set_font(fn_GUI_medium);
+draw_text(view_xview[0] + 768, view_yview[0] + 16, "Score: " + string(global.pscore));
 
 </string>
           </argument>
