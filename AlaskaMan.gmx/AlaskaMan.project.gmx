@@ -24,7 +24,11 @@
       <sprite>sprites\spr_playerlife</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <backgrounds name="Menu">
+      <background>background\bg_menu_map</background>
+    </backgrounds>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Save/Load">
@@ -72,6 +76,9 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\menu_startup</room>
+    <room>rooms\menu_main</room>
+    <room>rooms\menu_options</room>
+    <room>rooms\map</room>
     <room>rooms\stage_test</room>
   </rooms>
   <help>
