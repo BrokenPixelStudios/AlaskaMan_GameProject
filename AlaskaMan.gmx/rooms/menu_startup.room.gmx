@@ -671,6 +671,8 @@
     <instance objName="obj_block_dirt" x="1760" y="608" name="inst_5C5C62A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1728" y="544" name="inst_167957AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1696" y="512" name="inst_DBD1057B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_setup_gamehs" x="96" y="0" name="inst_89E3BF03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_setup_levelvars" x="128" y="0" name="inst_A5D91057" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -27,10 +27,13 @@
             <kind>1</kind>
             <string>global.key_left = "A";
 global.key_right = "D";
-global.key_jump = vk_space;
-global.key_attack1 = mouse_check_button_pressed(mb_left);
-global.key_attack2 = mouse_check_button_pressed(mb_right);
-global.key_pause = keyboard_check_direct(vk_escape);
+global.key_up = "W";
+global.key_down = "S";
+global.key_attack1 = mb_left;
+global.key_attack2 = mb_right;
+global.key_attack3 = vk_space;
+global.key_pause = vk_escape;
+global.key_enter = vk_enter;
 
 
 </string>
@@ -56,10 +59,8 @@ global.key_pause = keyboard_check_direct(vk_escape);
           <argument>
             <kind>1</kind>
             <string>draw_set_color(c_black);
-draw_set_font(fn_GUI_medium);
-draw_text(x + 900, y + 480, "Alaska Man");
 draw_set_font(fn_GUI_small);
-draw_text(x + 900, y + 520, "Press Enter!");
+draw_text(x + 700, y + 520, "Press enter to continue!");
 
 
 
@@ -85,7 +86,7 @@ draw_text(x + 900, y + 520, "Press Enter!");
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(stage_test);
+            <string>room_goto(menu_main);
 </string>
           </argument>
         </arguments>

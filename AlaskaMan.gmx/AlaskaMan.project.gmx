@@ -16,12 +16,24 @@
       <sprite>sprites\spr_block_snowedge_horz</sprite>
       <sprite>sprites\spr_block_dirtedge_vert</sprite>
       <sprite>sprites\spr_block_snowedge_vert</sprite>
+      <sprite>sprites\spr_block_icicle1</sprite>
+      <sprite>sprites\spr_block_icicle2</sprite>
     </sprites>
     <sprites name="Player">
-      <sprite>sprites\spr_player</sprite>
+      <sprite>sprites\spr_player_still</sprite>
     </sprites>
     <sprites name="GUI">
       <sprite>sprites\spr_playerlife</sprite>
+    </sprites>
+    <sprites name="Map">
+      <sprite>sprites\spr_mappoint_incomplete</sprite>
+      <sprite>sprites\spr_mappoint_complete</sprite>
+      <sprite>sprites\spr_mappoint_lock</sprite>
+    </sprites>
+    <sprites name="Menu">
+      <sprite>sprites\spr_menu_icicle</sprite>
+      <sprite>sprites\spr_menu_button_loadgame</sprite>
+      <sprite>sprites\spr_menu_button_newgame</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -32,17 +44,25 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Save/Load">
-      <script>scripts\scr_save_gamekeys.gml</script>
-      <script>scripts\scr_save_playervars.gml</script>
-      <script>scripts\scr_save_gamevars.gml</script>
-      <script>scripts\scr_load_gamekeys.gml</script>
-      <script>scripts\scr_load_playervars.gml</script>
-      <script>scripts\scr_load_gamevars.gml</script>
+      <scripts name="GameKeys">
+        <script>scripts\scr_save_gamekeys.gml</script>
+        <script>scripts\scr_load_gamekeys.gml</script>
+      </scripts>
+      <scripts name="PlayerVars">
+        <script>scripts\scr_save_playervars.gml</script>
+        <script>scripts\scr_load_playervars.gml</script>
+      </scripts>
+      <scripts name="GameVars">
+        <script>scripts\scr_save_gamevars.gml</script>
+        <script>scripts\scr_load_gamevars.gml</script>
+      </scripts>
     </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fn_GUI_small</font>
+    <font>fonts\fn_GUI_mapdesciprion</font>
     <font>fonts\fn_GUI_medium</font>
+    <font>fonts\fn_GUI_large</font>
   </fonts>
   <objects name="objects">
     <objects name="Blocks">
@@ -71,12 +91,31 @@
         <object>objects\obj_setup_playervars</object>
         <object>objects\obj_setup_gamevars</object>
         <object>objects\obj_setup_gamekeys</object>
+        <object>objects\obj_setup_gamehs</object>
+        <object>objects\obj_setup_levelvars</object>
       </objects>
+      <objects name="Main">
+        <object>objects\obj_menu_main_loadgamefiles</object>
+        <object>objects\obj_menu_main_button_play</object>
+        <object>objects\obj_menu_main_button_options</object>
+        <object>objects\obj_menu_main_button_credits</object>
+        <object>objects\obj_menu_main_button_quit</object>
+      </objects>
+      <objects name="Play">
+        <object>objects\obj_menu_play_button_loadgame</object>
+        <object>objects\obj_menu_play_button_newgame</object>
+      </objects>
+    </objects>
+    <objects name="Map">
+      <object>objects\obj_mappoint_test</object>
+      <object>objects\obj_mappoint_1</object>
+      <object>objects\obj_map_player</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu_startup</room>
     <room>rooms\menu_main</room>
+    <room>rooms\menu_play</room>
     <room>rooms\menu_options</room>
     <room>rooms\map</room>
     <room>rooms\stage_test</room>
