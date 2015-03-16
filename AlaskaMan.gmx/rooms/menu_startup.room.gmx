@@ -251,15 +251,9 @@
     <instance objName="obj_block_dirt" x="0" y="672" name="inst_827F80FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="0" y="736" name="inst_A5C54E13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="0" y="704" name="inst_5D73CC94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1888" y="448" name="inst_FB67A0D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1600" y="384" name="inst_28C0468E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="0" y="416" name="inst_CFFF9517" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="0" y="448" name="inst_50EC0238" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="0" y="480" name="inst_412E0E9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1696" y="384" name="inst_EAEDDA28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1664" y="384" name="inst_1414A09A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1248" y="320" name="inst_CCE034B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1408" y="352" name="inst_08368BBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1888" y="480" name="inst_FF031CC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1888" y="512" name="inst_3FDD42CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1888" y="544" name="inst_4B52FBE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -277,7 +271,6 @@
     <instance objName="obj_block_dirt" x="1888" y="928" name="inst_42CF6FFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1888" y="960" name="inst_F9564463" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1728" y="512" name="inst_45529674" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1856" y="384" name="inst_90A34037" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="32" y="384" name="inst_3C8B2F32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="32" y="416" name="inst_E03EE4F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="32" y="448" name="inst_11D6E01A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -309,9 +302,6 @@
     <instance objName="obj_block_dirt" x="32" y="640" name="inst_DF179758" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="64" y="928" name="inst_62BA3A23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="64" y="960" name="inst_AA33B336" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1728" y="384" name="inst_0BFE1C72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1664" y="352" name="inst_813B5386" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1280" y="320" name="inst_33A578B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1856" y="448" name="inst_E4B55C9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1856" y="480" name="inst_B4E15AC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1856" y="512" name="inst_430E4DA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -341,7 +331,6 @@
     <instance objName="obj_block_dirt" x="1856" y="672" name="inst_5AAAB43A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1856" y="640" name="inst_83FCCAAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1760" y="544" name="inst_2D71E46A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1824" y="384" name="inst_CCA09785" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="64" y="384" name="inst_619F7F62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="64" y="416" name="inst_36FC955C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="64" y="448" name="inst_AF1C234B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -349,9 +338,6 @@
     <instance objName="obj_block_dirt" x="64" y="512" name="inst_364F7E61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="64" y="544" name="inst_A96139EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="64" y="576" name="inst_F1FEE6FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1760" y="384" name="inst_6958A601" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1632" y="352" name="inst_9C71BE38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1312" y="320" name="inst_2D60EAE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1824" y="448" name="inst_24D437DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1824" y="480" name="inst_07A9F440" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1824" y="512" name="inst_5B9EAFD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -429,91 +415,6 @@
     <instance objName="obj_block_dirt" x="1792" y="576" name="inst_63E4876F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1792" y="608" name="inst_FDCC2750" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="1792" y="640" name="inst_846124E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1632" y="384" name="inst_A6BD52E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="32" y="320" name="inst_CF8DD3F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="64" y="320" name="inst_5DD98B59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="96" y="288" name="inst_EAAD1EF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="128" y="288" name="inst_3092DB31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="160" y="288" name="inst_689ED17D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="192" y="288" name="inst_2700076C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="192" y="256" name="inst_92D9AE1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="224" y="256" name="inst_48B37E07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="256" y="256" name="inst_C8EBFAF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="288" y="256" name="inst_3A04A19B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="288" y="224" name="inst_BBCEC7EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="320" y="224" name="inst_33966EAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="352" y="224" name="inst_1AD49574" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="384" y="224" name="inst_A2BCFB5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="416" y="224" name="inst_A600E5D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="448" y="224" name="inst_50211288" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="480" y="224" name="inst_86AE127F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="512" y="224" name="inst_BAB209C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="544" y="224" name="inst_56D28EC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="576" y="224" name="inst_89DC69A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="608" y="224" name="inst_B37D5BE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="640" y="224" name="inst_A77C6AEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="672" y="224" name="inst_B67A39B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="704" y="224" name="inst_B7BEAEA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="736" y="224" name="inst_27DC0FC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="768" y="224" name="inst_7202C4D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="800" y="224" name="inst_6DADC519" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="832" y="224" name="inst_A5EBB544" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="864" y="224" name="inst_143C6BDB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="896" y="224" name="inst_1A692751" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="896" y="256" name="inst_C619223A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="928" y="256" name="inst_79027CD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="960" y="256" name="inst_EF277224" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="992" y="256" name="inst_13AE866D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1024" y="256" name="inst_D924184B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1056" y="256" name="inst_94B4749F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1088" y="256" name="inst_4576F961" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1120" y="256" name="inst_E2A00677" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1152" y="256" name="inst_6E467CD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1152" y="288" name="inst_7028FC07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1184" y="288" name="inst_DC453BEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1216" y="288" name="inst_8BE82089" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1248" y="288" name="inst_39A6BB9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1280" y="288" name="inst_3DAB4A76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1312" y="288" name="inst_4D94F9DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1344" y="288" name="inst_F8066473" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1344" y="320" name="inst_1FF61949" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1376" y="320" name="inst_C31EA192" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1408" y="320" name="inst_82DEE83E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1440" y="320" name="inst_8ED9FC52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1440" y="352" name="inst_B20CCD7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1472" y="352" name="inst_CC251ACA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1504" y="352" name="inst_E9B536D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1536" y="352" name="inst_4C3DE014" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1568" y="352" name="inst_D549E40F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1600" y="352" name="inst_364B32E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1792" y="384" name="inst_54358C6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="0" y="352" name="inst_7D364573" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="32" y="352" name="inst_7063B9A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="64" y="352" name="inst_1F7B9722" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="96" y="320" name="inst_65549387" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="128" y="320" name="inst_BCFA5CD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="160" y="320" name="inst_83BE2DCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="192" y="320" name="inst_24B5F35B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="224" y="288" name="inst_009DA50D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="256" y="288" name="inst_E7FAEEAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="320" y="256" name="inst_E257407C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="352" y="256" name="inst_6FFAEBA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="384" y="256" name="inst_247FC500" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="416" y="256" name="inst_A8BD69FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="448" y="256" name="inst_06A32975" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="480" y="256" name="inst_CC3152B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="800" y="256" name="inst_CA502DF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="832" y="256" name="inst_4512E2DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="864" y="256" name="inst_85E5FB2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1088" y="288" name="inst_FB5D925B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1120" y="288" name="inst_173DB09F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1216" y="320" name="inst_2F884F01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1888" y="416" name="inst_E5546937" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1856" y="416" name="inst_07189B67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1824" y="416" name="inst_5AA41C44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1792" y="416" name="inst_1C5D5BE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="1760" y="416" name="inst_D958474F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_snow" x="0" y="384" name="inst_D9C4D994" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="96" y="448" name="inst_2A53C41F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="96" y="416" name="inst_F3D418EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_dirt" x="96" y="384" name="inst_82003CE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -673,6 +574,105 @@
     <instance objName="obj_block_dirt" x="1696" y="512" name="inst_DBD1057B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_setup_gamehs" x="96" y="0" name="inst_89E3BF03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_setup_levelvars" x="128" y="0" name="inst_A5D91057" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="0" y="384" name="inst_57428C4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="0" y="352" name="inst_9F1E39C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="32" y="352" name="inst_38A7DB87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="64" y="352" name="inst_1A37F122" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="32" y="320" name="inst_A2F562CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="64" y="320" name="inst_2F001EB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="96" y="320" name="inst_8BC9C7D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="128" y="320" name="inst_1A3663C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="160" y="320" name="inst_FDA442A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="192" y="320" name="inst_381DCCA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="96" y="288" name="inst_205BEDA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="128" y="288" name="inst_997D24EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="160" y="288" name="inst_DC8BCE40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="192" y="288" name="inst_D38B6C81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="224" y="288" name="inst_7F335AAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="256" y="288" name="inst_642A3C45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="160" y="256" name="inst_C69A9BCD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="192" y="256" name="inst_D07A7AEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="224" y="256" name="inst_49BEBAF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="256" y="256" name="inst_F7A9DC31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="288" y="256" name="inst_DFDCF122" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="320" y="256" name="inst_57A1996A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="352" y="256" name="inst_F09A9398" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="384" y="256" name="inst_7E6A28F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="416" y="256" name="inst_EDAE40E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="448" y="256" name="inst_F68128D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="480" y="256" name="inst_9D522D6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="352" y="224" name="inst_8D39D049" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="384" y="224" name="inst_C6E721CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="416" y="224" name="inst_DEB0E26C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="448" y="224" name="inst_E51AFC5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="480" y="224" name="inst_BAAC8F72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="512" y="224" name="inst_692508D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="544" y="224" name="inst_2C28AFFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="576" y="224" name="inst_63100754" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="608" y="224" name="inst_EF6C5B56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="640" y="224" name="inst_FF080120" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="672" y="224" name="inst_55EDFB0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="704" y="224" name="inst_1EBC0C2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="736" y="224" name="inst_42D5C4D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="768" y="224" name="inst_34D0D669" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="800" y="224" name="inst_34C16145" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="832" y="224" name="inst_1140F5B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="864" y="224" name="inst_82A5F07F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="800" y="256" name="inst_39000E35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="832" y="256" name="inst_8E7797AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="864" y="256" name="inst_C28ADB5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="896" y="256" name="inst_FB2B0ED0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="928" y="256" name="inst_424C9670" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="960" y="256" name="inst_8554410D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="992" y="256" name="inst_7335DDB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1024" y="256" name="inst_E93715E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1056" y="256" name="inst_C8217E7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1088" y="256" name="inst_74220118" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1120" y="256" name="inst_5C9AD036" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1088" y="288" name="inst_4B61FA57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1120" y="288" name="inst_A137E3D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1152" y="288" name="inst_4295C495" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1184" y="288" name="inst_E89C90D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1216" y="288" name="inst_5AF7B4D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1248" y="288" name="inst_9FB5676D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1280" y="288" name="inst_5E9C2B84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1312" y="288" name="inst_A213FD70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1344" y="288" name="inst_29C8FD32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1216" y="320" name="inst_C496B319" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1248" y="320" name="inst_94D472D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1280" y="320" name="inst_381C4F1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1312" y="320" name="inst_963BD4D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1344" y="320" name="inst_B6362721" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1376" y="320" name="inst_24470E41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1408" y="320" name="inst_0C7FA476" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1440" y="320" name="inst_25F5C176" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1472" y="320" name="inst_F6608A35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1440" y="352" name="inst_64A53701" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1472" y="352" name="inst_C61369D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1504" y="352" name="inst_39BEFDAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1536" y="352" name="inst_69781FE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1568" y="352" name="inst_067AC3CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1600" y="352" name="inst_C576BC66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1632" y="352" name="inst_50FE912C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1600" y="384" name="inst_6053BFD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1632" y="384" name="inst_2CE6E6FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1664" y="384" name="inst_F4BB71DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1696" y="384" name="inst_18940378" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1728" y="384" name="inst_8FE5DEEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1408" y="352" name="inst_F53AF74E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1760" y="384" name="inst_85C1FCBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1760" y="416" name="inst_728847BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1792" y="416" name="inst_EBB99C58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1824" y="416" name="inst_B3A935CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1856" y="416" name="inst_6DAADB30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1888" y="416" name="inst_DED6AE5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1888" y="448" name="inst_CD0D6C04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1824" y="384" name="inst_60F14A19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1792" y="384" name="inst_D6DD2341" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1696" y="352" name="inst_22AD2296" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1664" y="352" name="inst_DC7A5CF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1504" y="320" name="inst_35E7F473" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_snow" x="1536" y="320" name="inst_C545E283" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

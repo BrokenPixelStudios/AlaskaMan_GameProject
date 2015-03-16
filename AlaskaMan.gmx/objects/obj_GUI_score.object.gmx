@@ -26,6 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_color(c_black);
+if(global.pause == true){
+     draw_set_color(c_white);
+}
 draw_set_font(fn_GUI_medium);
 draw_text(view_xview[0] + 768, view_yview[0] + 16, "Score: " + string(global.pscore));
 

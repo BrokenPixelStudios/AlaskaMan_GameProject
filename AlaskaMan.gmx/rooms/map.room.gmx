@@ -54,6 +54,7 @@
     <instance objName="obj_mappoint_test" x="640" y="896" name="inst_79F5D73E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_map_player" x="640" y="864" name="inst_B5BDD86A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mappoint_1" x="768" y="704" name="inst_6E2CC354" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_map_button_menu" x="1568" y="32" name="inst_2B9EC393" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

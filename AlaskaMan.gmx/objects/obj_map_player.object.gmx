@@ -48,19 +48,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>key_left = keyboard_check_direct(ord(global.key_left));
-key_right = keyboard_check_direct(ord(global.key_right));
-key_up = keyboard_check_direct(ord(global.key_up));
-key_down = keyboard_check_direct(ord(global.key_down));
+            <string>key_left = keyboard_check_pressed(ord(global.key_left));
+key_right = keyboard_check_pressed(ord(global.key_right));
+key_up = keyboard_check_pressed(ord(global.key_up));
+key_down = keyboard_check_pressed(ord(global.key_down));
 
 //L0 to L1
-if(key_right &amp;&amp; loc == 0 &amp;&amp; global.l0complete){
+if((key_right || key_up) &amp;&amp; loc == 0 &amp;&amp; global.l0complete){
        x = obj_mappoint_1.x;
        y = obj_mappoint_1.y;
        loc = 1;
 }
 //L1 to L0
-if(key_left &amp;&amp; loc == 1 &amp;&amp; global.l0complete){
+if((key_left || key_down) &amp;&amp; loc == 1 &amp;&amp; global.l0complete){
        x = obj_mappoint_test.x;
        y = obj_mappoint_test.y;
        loc = 0;

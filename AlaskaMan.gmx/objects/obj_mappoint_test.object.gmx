@@ -72,6 +72,8 @@ if(global.l0complete == true){
 }
 
 if(place_meeting(x, y, obj_map_player) &amp;&amp; keyboard_check_pressed(global.key_enter)){
+      global.currentlevelname = levelname;
+      global.currentleveldif = difficulty;
       room_goto(stage_test);
 }
 
@@ -116,6 +118,11 @@ if(place_meeting(x, y, obj_map_player)){
       draw_set_font(fn_GUI_medium);
       draw_text(boxx1 + 32, boxy1 + 120, difficulty);
       draw_text(boxx1 + 360, boxy1 + 120, "Highscore " + string(highscore));
+}
+
+if(global.l0complete == true){
+      draw_set_color(c_black);
+      draw_line_width(x, y, obj_mappoint_1.x, obj_mappoint_1.y, 3);
 }
 
 

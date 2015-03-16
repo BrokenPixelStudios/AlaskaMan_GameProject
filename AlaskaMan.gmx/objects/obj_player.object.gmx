@@ -25,10 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>vsp = 0;
+            <string>grav = global.pgravity;
 hsp = 0;
-grav = global.pgravity;
-grounded = 0;
+vsp = 0;
+jumpspeed = global.pjumpheight;
+movespeed = global.pspeed;
 
 
 
@@ -55,11 +56,22 @@ grounded = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>key_left = keyboard_check_direct(ord(global.key_left));
-key_right = keyboard_check_direct(ord(global.key_right));
-key_jump = keyboard_check_direct(ord(global.key_up));
-key_attack1 = mouse_check_button_pressed(global.key_attack1);
-key_attack2 = mouse_check_button_pressed(global.key_attack2);
+            <string>key_left = keyboard_check(ord(global.key_left));
+key_right = keyboard_check(ord(global.key_right));
+key_jump = keyboard_check(ord(global.key_up));
+key_attack1 = mouse_check_button(global.key_attack1);
+key_attack2 = mouse_check_button(global.key_attack2);
+
+//MOVING PLAYER
+if(global.pause == false){
+
+
+if(key_left){
+     image_xscale = -1;
+}
+if(key_right){
+     image_xscale = 1;
+}
 
 //Moving Left
 if(key_left){
@@ -101,65 +113,35 @@ if((key_left &amp;&amp; key_right) || (!key_left &amp;&amp; !key_right)){
        } 
 }
 
-//Jumping
-if(key_jump){
-       if(grounded){
-              vsp = -12;    
-       }      
+if(vsp &lt; 10){
+     vsp += grav;
 }
 
-vsp += grav;
-
-//Verticle Collision
-if(place_meeting(x, y + vsp, obj_block_solid)){
-       while(!place_meeting(x, y + 1, obj_block_solid)){
-              y += 1;                 
-       }
-       vsp = 0;
-       grounded = 1;
-}
-else{
-       grounded = 0;
+if(place_meeting(x, y + 1, obj_block_solid)){
+     vsp = key_jump * -jumpspeed;
 }
 
-//Horizontal Collision
 if(place_meeting(x + hsp, y, obj_block_solid)){
-       while(!place_meeting(x + sign(hsp), y, obj_block_solid))  {
-              x += sign(hsp);                
-       }     
-       hsp = 0;      
+     while(!place_meeting(x + sign(hsp), y, obj_block_solid)){
+          x += sign(hsp);
+     }
+     hsp = 0;
 }
 
-//Commit to Movement
 x += hsp;
+
+if(place_meeting(x, y + vsp, obj_block_solid)){
+     while(!place_meeting(x, y + sign(vsp), obj_block_solid)){
+          y += sign(vsp);
+     }
+     vsp = 0;
+}
+
 y += vsp;
 
 
+}
 
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="9" enumb="27">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>game_end();
 
 </string>
           </argument>

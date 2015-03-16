@@ -72,6 +72,8 @@ if(global.l1complete == true){
 }
 
 if(place_meeting(x, y, obj_map_player) &amp;&amp; keyboard_check_pressed(global.key_enter)){
+      global.currentlevelname = levelname;
+      global.currentleveldif = difficulty;
       //room_goto(stage_);
 }
 

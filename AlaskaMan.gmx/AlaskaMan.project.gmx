@@ -8,8 +8,10 @@
   <sprites name="sprites">
     <sprites name="Blocks">
       <sprite>sprites\spr_block_solid</sprite>
+      <sprite>sprites\spr_block_dirt1</sprite>
       <sprite>sprites\spr_block_dirt</sprite>
       <sprite>sprites\spr_block_snow</sprite>
+      <sprite>sprites\spr_block_snow1</sprite>
       <sprite>sprites\spr_block_ice</sprite>
       <sprite>sprites\spr_block_grasstop</sprite>
       <sprite>sprites\spr_block_dirtedge_horz</sprite>
@@ -18,12 +20,20 @@
       <sprite>sprites\spr_block_snowedge_vert</sprite>
       <sprite>sprites\spr_block_icicle1</sprite>
       <sprite>sprites\spr_block_icicle2</sprite>
+      <sprite>sprites\spr_block_barrel</sprite>
+      <sprite>sprites\spr_block_barrel_explosion</sprite>
     </sprites>
     <sprites name="Player">
       <sprite>sprites\spr_player_still</sprite>
+      <sprite>sprites\spr_player_move</sprite>
+      <sprite>sprites\spr_player_jump</sprite>
+      <sprite>sprites\spr_player_fall</sprite>
+      <sprite>sprites\spr_player_punch</sprite>
     </sprites>
     <sprites name="GUI">
       <sprite>sprites\spr_playerlife</sprite>
+      <sprite>sprites\spr_GUI_resumegame</sprite>
+      <sprite>sprites\spr_GUI_backtomap</sprite>
     </sprites>
     <sprites name="Map">
       <sprite>sprites\spr_mappoint_incomplete</sprite>
@@ -31,9 +41,19 @@
       <sprite>sprites\spr_mappoint_lock</sprite>
     </sprites>
     <sprites name="Menu">
-      <sprite>sprites\spr_menu_icicle</sprite>
+      <sprite>sprites\spr_menu_icicle_play</sprite>
+      <sprite>sprites\spr_menu_icicle_options</sprite>
+      <sprite>sprites\spr_menu_icicle_credits</sprite>
+      <sprite>sprites\spr_menu_icicle_quit</sprite>
       <sprite>sprites\spr_menu_button_loadgame</sprite>
       <sprite>sprites\spr_menu_button_newgame</sprite>
+      <sprite>sprites\spr_menu_button_back</sprite>
+      <sprite>sprites\spr_menu_button_menu</sprite>
+      <sprite>sprites\spr_menu_text_gamevolume</sprite>
+      <sprite>sprites\spr_menu_button_leftarrow</sprite>
+      <sprite>sprites\spr_menu_button_rightarrow</sprite>
+      <sprite>sprites\spr_menu_bar</sprite>
+      <sprite>sprites\spr_menu_bar_marker</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -48,13 +68,17 @@
         <script>scripts\scr_save_gamekeys.gml</script>
         <script>scripts\scr_load_gamekeys.gml</script>
       </scripts>
-      <scripts name="PlayerVars">
-        <script>scripts\scr_save_playervars.gml</script>
-        <script>scripts\scr_load_playervars.gml</script>
-      </scripts>
       <scripts name="GameVars">
         <script>scripts\scr_save_gamevars.gml</script>
         <script>scripts\scr_load_gamevars.gml</script>
+      </scripts>
+      <scripts name="GameHS">
+        <script>scripts\scr_save_gamehs.gml</script>
+        <script>scripts\scr_load_gamehs.gml</script>
+      </scripts>
+      <scripts name="LevelVars">
+        <script>scripts\scr_save_levelvars.gml</script>
+        <script>scripts\scr_load_levelvars.gml</script>
       </scripts>
     </scripts>
   </scripts>
@@ -68,13 +92,20 @@
     <objects name="Blocks">
       <object>objects\obj_block_solid</object>
       <object>objects\obj_block_dirt</object>
+      <object>objects\obj_block_dirt_nograss</object>
       <object>objects\obj_block_snow</object>
       <object>objects\obj_block_ice</object>
-      <object>objects\obj_block_grasstop</object>
-      <object>objects\obj_block_dirtedge_horz</object>
-      <object>objects\obj_block_snowedge_horz</object>
-      <object>objects\obj_block_dirtedge_vert</object>
-      <object>objects\obj_block_snowedge_vert</object>
+      <object>objects\obj_block_icicle</object>
+      <object>objects\obj_block_barrel</object>
+      <objects name="BlockAttachments">
+        <object>objects\obj_block_ice_icicle</object>
+        <object>objects\obj_block_barrel_explosion</object>
+        <object>objects\obj_block_grasstop</object>
+        <object>objects\obj_block_dirtedge_horz</object>
+        <object>objects\obj_block_snowedge_horz</object>
+        <object>objects\obj_block_dirtedge_vert</object>
+        <object>objects\obj_block_snowedge_vert</object>
+      </objects>
     </objects>
     <objects name="Player">
       <object>objects\obj_player</object>
@@ -85,6 +116,9 @@
       <object>objects\obj_GUI_manabar</object>
       <object>objects\obj_GUI_score</object>
       <object>objects\obj_GUI_playerlives</object>
+      <object>objects\obj_GUI_pause</object>
+      <object>objects\obj_GUI_button_resumegame</object>
+      <object>objects\obj_GUI_button_backtomap</object>
     </objects>
     <objects name="Menu">
       <objects name="Startup">
@@ -104,12 +138,24 @@
       <objects name="Play">
         <object>objects\obj_menu_play_button_loadgame</object>
         <object>objects\obj_menu_play_button_newgame</object>
+        <object>objects\obj_menu_play_button_back</object>
+      </objects>
+      <objects name="Options">
+        <object>objects\obj_menu_options_button_back</object>
+        <object>objects\obj_menu_options_text_gamevolume</object>
+        <object>objects\obj_menu_options_bar_volume</object>
+        <object>objects\obj_menu_options_button_leftarrow</object>
+        <object>objects\obj_menu_options_button_rightarrow</object>
+      </objects>
+      <objects name="Credits">
+        <object>objects\obj_menu_credits_button_back</object>
       </objects>
     </objects>
     <objects name="Map">
+      <object>objects\obj_map_button_menu</object>
+      <object>objects\obj_map_player</object>
       <object>objects\obj_mappoint_test</object>
       <object>objects\obj_mappoint_1</object>
-      <object>objects\obj_map_player</object>
     </objects>
   </objects>
   <rooms name="rooms">

@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.pspeed = 8;
+            <string>global.pspeed = 9;
+global.pjumpheight = 12;
 global.phealth = 100;
 global.pmana = 50;
 global.pdamage = 10;

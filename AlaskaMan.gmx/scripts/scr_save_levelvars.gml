@@ -1,0 +1,34 @@
+ini_open("save.ini");
+
+ini_write_real("levelvars", "l1complete", global.l1complete);
+ini_write_real("levelvars", "l2complete", global.l2complete);
+ini_write_real("levelvars", "l3complete", global.l3complete);
+ini_write_real("levelvars", "l4complete", global.l4complete);
+ini_write_real("levelvars", "l5complete", global.l5complete);
+ini_write_real("levelvars", "l6complete", global.l6complete);
+ini_write_real("levelvars", "l7complete", global.l7complete);
+ini_write_real("levelvars", "l8complete", global.l8complete);
+ini_write_real("levelvars", "l9complete", global.l9complete);
+ini_write_real("levelvars", "l10complete", global.l10complete);
+ini_write_real("levelvars", "l11complete", global.l11complete);
+ini_write_real("levelvars", "l12complete", global.l12complete);
+ini_write_real("levelvars", "l13complete", global.l13complete);
+ini_write_real("levelvars", "l14complete", global.l14complete);
+ini_write_real("levelvars", "l15complete", global.l15complete);
+ini_write_real("levelvars", "l16complete", global.l16complete);
+ini_write_real("levelvars", "l17complete", global.l17complete);
+ini_write_real("levelvars", "l18complete", global.l18complete);
+ini_write_real("levelvars", "l19complete", global.l19complete);
+ini_write_real("levelvars", "l20complete", global.l20complete);
+ini_write_real("levelvars", "l21complete", global.l21complete);
+ini_write_real("levelvars", "l22complete", global.l22complete);
+ini_write_real("levelvars", "l23complete", global.l23complete);
+ini_write_real("levelvars", "l24complete", global.l24complete);
+ini_write_real("levelvars", "l25complete", global.l25complete);
+ini_write_real("levelvars", "l26complete", global.l26complete);
+ini_write_real("levelvars", "l27complete", global.l27complete);
+ini_write_real("levelvars", "l28complete", global.l28complete);
+ini_write_real("levelvars", "l29complete", global.l29complete);
+ini_write_real("levelvars", "l30complete", global.l30complete);
+
+ini_close();

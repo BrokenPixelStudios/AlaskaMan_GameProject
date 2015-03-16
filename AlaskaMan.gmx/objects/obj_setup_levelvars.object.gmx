@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.l0complete = true;
+            <string>global.currentlevelname = "UNKNOWN";
+global.currentleveldif = "UNKNOWN";
+
+global.l0complete = true;
 global.l1complete = true;
 global.l2complete = false;
 global.l3complete = false;

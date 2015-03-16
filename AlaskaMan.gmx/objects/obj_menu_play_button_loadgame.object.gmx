@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_load_playervars();
+            <string>scr_load_gamehs();
+scr_load_levelvars();
 room_goto(map);
 
 

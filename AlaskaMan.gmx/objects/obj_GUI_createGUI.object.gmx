@@ -29,6 +29,7 @@
 instance_create(x, y, obj_GUI_manabar);
 instance_create(x, y, obj_GUI_score);
 instance_create(x, y, obj_GUI_playerlives);
+instance_create(x, y, obj_GUI_pause);
 
 
 </string>
@@ -53,7 +54,7 @@ instance_create(x, y, obj_GUI_playerlives);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(view_xview[0] + 620, view_yview[0] + 400, "Press ' ESC ' To ' Quit");
+            <string>draw_text(view_xview[0] + 620, view_yview[0] + 400, "Press ' ESC' To ' Pause");
 
 </string>
           </argument>
